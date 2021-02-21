@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess project</title>
+  <link rel="stylesheet" href="assets/main.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <div id="upper">
+    <div class="numbers"></div>
+    <div class="letters"></div>
+    <div class="input">
+      <form action="">
+        <label for="pieces">Choose a piece:</label>
+        <select id="pieces" name="pieces">
+          <option value="&#9812;">King</option>
+          <option value="&#9813;">Queen</option>
+          <option value="&#9814;">Rook</option>
+          <option value="&#9815;">Bishop</option>
+          <option value="&#9816;">Knight</option>
+          <option value="&#9817;">Pawn</option>
+        </select>
+        <label for="number">Choose a number:</label>
+        <select id="number" name="number">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+        <label for="letter">Choose a letter:</label>
+        <select id="letter" name="letter">
+          <option value="1">a</option>
+          <option value="2">b</option>
+          <option value="3">c</option>
+          <option value="4">d</option>
+          <option value="5">e</option>
+          <option value="6">f</option>
+          <option value="7">g</option>
+          <option value="8">h</option>
+        </select>
+        <button id="submit">Submit</button>
+        <button id="clear">Clear Board</button>
+      </form>
+    </div>
+  </div>
+  <div class="board"></div>
+</body>
+</html>
