@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chess project</title>
+  <title>Chess.JSON project</title>
   <link rel="stylesheet" href="assets/main.css">
   <script src="assets/app.js" defer></script>
 </head>
@@ -16,12 +16,18 @@
       <form action="">
         <label for="pieces">Choose a piece:</label>
         <select id="pieces" name="pieces">
-          <option value="&#9812;">King</option>
-          <option value="&#9813;">Queen</option>
-          <option value="&#9814;">Rook</option>
-          <option value="&#9815;">Bishop</option>
-          <option value="&#9816;">Knight</option>
-          <option value="&#9817;">Pawn</option>
+          <option value="&#9812;">White King</option>
+          <option value="&#9813;">White Queen</option>
+          <option value="&#9814;">White Rook</option>
+          <option value="&#9815;">White Bishop</option>
+          <option value="&#9816;">White Knight</option>
+          <option value="&#9817;">White Pawn</option>
+          <option value="&#9818;">Black King</option>
+          <option value="&#9819;">Black Queen</option>
+          <option value="&#9820;">Black Rook</option>
+          <option value="&#9821;">Black Bishop</option>
+          <option value="&#9822;">Black Knight</option>
+          <option value="&#9823;">Black Pawn</option>
         </select>
         <label for="number">Choose a number:</label>
         <select id="number" name="number">
@@ -47,6 +53,7 @@
         </select>
         <button id="submit">Submit</button>
         <button id="clear">Clear Board</button>
+        <button id="position">Chess Position From JSON</button>
       </form>
     </div>
   </div>
